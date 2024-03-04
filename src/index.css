@@ -4,14 +4,19 @@
 
 @layer base {
   body {
-    font-family: "DM Serif Display";
+    font-family: "Yellowtail";
   }
 }
-
+html{
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body{
+  font-family: "Roboto", "sans-serif";
 }
 button {
   cursor: pointer;
